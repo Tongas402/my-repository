@@ -118,3 +118,6 @@ color: #fc0606;;
     
     margin: 10px;
 }
+.footer div{
+    display: flex;
+}
