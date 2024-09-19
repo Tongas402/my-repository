@@ -137,3 +137,49 @@ list-style: none;
     background-color: #616161;
     justify-content: center;
 }
+
+.dumpold{
+    justify-content: center;
+    display: flex;
+    list-style: none;   
+}
+.golrojo{
+    display: flex;
+    width: ;
+height: 200px;
+margin: 25px;
+}
+.golverde{
+    display: flex;
+    height: 200px;
+    margin: 25px;
+}
+.chev{
+    display: flex;
+    height: 200px;
+    margin: 25px;
+}
+.peu{
+    display: flex;
+    height: 200px;
+    margin: 25px;
+}
+.videos{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.video1{
+    display: flex;
+height: 300px;
+margin: 50px;
+}
+.video2{
+    display: flex;
+    height: 300px;
+    margin: 50px;
+}
+.historia{
+    display: flex;
+    margin: 20px;
+}
