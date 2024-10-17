@@ -6,7 +6,7 @@ body{
 }
 .header{
     width: 100%;
-    background-color:;
+
     display: flex;
 }
 .w-img{
@@ -37,7 +37,6 @@ justify-content: end;
     display: flex;
     margin: 0%;
     padding: 0%;
-    border-style: ;
     list-style: none;
     text-decoration: none;
     background-color:black ;
@@ -142,7 +141,6 @@ list-style: none;
 }
 .golrojo img{
     display: flex;
-    width: ;
     background-color: #e38282;
     height: 200px;
     margin: 10px;
