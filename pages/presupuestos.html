@@ -16,7 +16,7 @@
 </head>
 <body>
     <header class="header">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="background-color: dark;">
+        <nav class="navbar navbar-expand-lg" data-bs-theme="background-color: dark;">
             <div class="container-fluid">
               <a class="navbar-brand" href="../Index.html">
                 <img class="w-img" src="../assets/Charlie-Logosf1.png" alt="Charlie-Logo">
@@ -48,6 +48,97 @@
             </div>
           </nav>
     </header>
+ <main>
+   <form>
+     <h2>
+        ¡Presupuestos sin cargo!
+      </h2>
+      <div class="presupuestos">
+        <section class="a">
+        <li>
+          <label for="marca">Marca:</label>
+          <input class="controls" type="text" placeholder="Marca de su vehículo" maxlength="20" name="marca" id="marca">
+        </li>
+        <br>
+        <li>
+          <label for="modelo">Modelo:</label>
+          <input class="controls" type="text" placeholder="Modelo de su vehículo" maxlength="20" name="modelo" id="modelo">
+        </li>
+        <br>
+        <li>
+          <label for="año">Año:</label>
+          <input class="controls" type="text" placeholder="Año del vehículo" maxlength="20" name="año" id="año">
+        </li>
+        </section>
+        <br>
+        <section class="b">
+        <li>
+         <label for="asegurado">Aseguradora:</label>
+         <input type="checkbox" type="text" maxlength="20" name="asegurado" id="asegurado">
+        </li>
+         <br>
+         <li>
+           <label for="Compañía">Seleccione Compañía:
+            <select name="Compañía" id="compañia">
+             <option value="BSE">BSE</option>
+             <option value="Porto Seguros">Porto Seguros</option>
+             <option value="Sura">Sura</option>
+             <option value="Sancor Seguros">Sancor Seguros</option>
+            </select>
+           </label>
+           </li>
+           <br>
+           <li>
+            <label for="asegurado"></label>
+            <input class="controls" type="text" placeholder="Adjunte num. de siniestro" maxlength="20" name="asegurado" id="asegurado">
+           </li>
+           <br>
+          <li>
+            <label for="insertar fotos">Insertar Fotos</label>
+            <input type="insert" type="image" placeholder="Inserte imagen">
+          </li>
+          </section>   
+        </div>
+     </form>
+      <div class="consulta">
+        <form action="">
+         <fieldset>
+         <legend>Llena este formulario y nos contactaremos a la brevedad
+         </legend>
+         <li>
+         <label for="nombre">Nombre:</label>
+         <input class="controls" type="text" placeholder="Escriba su nombre" maxlength="20" name="nombre" id="nombre">
+         </li>
+         <br>
+         <li>
+         <label for="apellido">Apellido:</label>
+         <input class="controls" type="text" placeholder="Escriba su apellido" maxlength="20" name="apellido" id="apellido">
+         </li>
+         <br>
+         <li>
+         <label for="email">Email:</label>
+         <input class="controls" type="email" placeholder="sumail@gmail.com" name="email" id="email">
+         </li>
+         <br>
+         <li>
+         <label for="num">Núm. de contacto</label>
+         <input class="controls" type="text" placeholder="+598-*******" name="num" id="num">
+         </li>
+         <br>
+         <div>
+         <li>
+         <label for="dudas">Escriba su consulta o duda:</label>
+         <input class="controls" type="text" placeholder="Escriba su consulta o duda..." maxlength="100" name="dudas" id="dudas">
+         </li>
+         </div>
+         <br>
+         <li class="enviar">
+         <input type="button" value="Enviar">
+         </li>
+       </fieldset>
+     </form>
+   </div>
+    </main>
     <footer>
       <section>
           <h3>Contacto:</h3>

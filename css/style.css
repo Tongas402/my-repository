@@ -6,7 +6,7 @@ body{
 }
 .header{
     width: 100%;
-    background-color: #e38282;
+    background-color:;
     display: flex;
 }
 .w-img{
@@ -15,7 +15,7 @@ body{
 }
 .navbar-expand-lg{
     justify-content: end;
-    background-color: #e38282;
+    background-color: black;
 }
 .navbar>.container-fluid{
 display: flex;
@@ -23,9 +23,7 @@ justify-content: end;
 }
 .navbar{
     width: 100%;
-    display: flex;
-    justify-content: end;
-    background-color: #e38282;
+     background-color: #e38282;
 }
 .nav-bar div{
     display: flex;
@@ -39,23 +37,23 @@ justify-content: end;
     display: flex;
     margin: 0%;
     padding: 0%;
-    border-style: none;
+    border-style: ;
     list-style: none;
     text-decoration: none;
-    background-color: transparent;
+    background-color:black ;
 }
-.nav-bar div button a h1{
-color: #fc0606;;
+.bs-navbar-color{
+background-color: #fc0606;;
     margin: 0%;
     padding: 0%;
     border-width: 0px
     
 }
-.nav-bar div button a{
+.nav-bar div button{
     display: flex;
-    margin: 0%;
-    padding: 0%;
-    border: 0%;
+    margin:0%;
+    padding:0%;
+    border:0%;
     list-style: none;
     text-decoration: none;
 }
@@ -64,11 +62,6 @@ color: #fc0606;;
     display: flex ;
     justify-content: end;
     align-items: center;
-}
-.navbr li{
-    list-style: none;
-    margin: 5px;
-    
 }
 .navbr li a{
     text-decoration: none;
@@ -80,7 +73,7 @@ color: #fc0606;;
     padding: color black;
 }
 .enbreves h2{
-    font-size:18px ;
+    font-size:30px ;
     display: flex;
     justify-content: center;
 }
@@ -137,49 +130,159 @@ list-style: none;
     background-color: #616161;
     justify-content: center;
 }
-
 .dumpold{
     justify-content: center;
     display: flex;
-    list-style: none;   
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    padding: 0px;  
+    margin-bottom: 0px;
+    gap: 1rem;
 }
-.golrojo{
+.golrojo img{
     display: flex;
     width: ;
-height: 200px;
-margin: 25px;
+    background-color: #e38282;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
 }
-.golverde{
+.golverde img{
+    display: flex;      
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #e38282;
+}
+.chev img{
     display: flex;
     height: 200px;
-    margin: 25px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #e38282;
 }
-.chev{
+.peu img{
     display: flex;
     height: 200px;
-    margin: 25px;
-}
-.peu{
-    display: flex;
-    height: 200px;
-    margin: 25px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #e38282;
 }
 .videos{
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     justify-content: center;
+    padding: 0px;
 }
-.video1{
-    display: flex;
-height: 300px;
-margin: 50px;
-}
-.video2{
+.video1 video{
     display: flex;
     height: 300px;
-    margin: 50px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #e38282;
+}
+.video2 video{
+    display: flex;
+    height: 300px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #e38282;
 }
 .historia{
+    display: block;
+    margin: 15px;
+}
+.objetivo{
+    display: block;
+}
+.consulta form{
+    border-radius: 15px;
+    border: 2px solid;
+    display: block;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #d2d2d2;
+}
+.consulta form li{
+    list-style: none;
+}
+.controls div li{
+   width: 100%;
+   
+}
+iframe{
+    display: flex;
+    justify-content: center;
+}
+.presupuestos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    border:2px solid ;
+    list-style: none;
+    align-items: flex-start ;
+    background-color: #d2d2d2;
+}
+.enviar{
     display: flex;
     margin: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.enviar input {
+    padding: 10px 30px 10px 30px;
+    display: flex;
+    background-color: #fc0606;
+    border-radius: 15px;
+}
+.ingresa{
+    display: flex;
+    flex-flow: column;
+    border: 2px solid;
+    border-radius: 15px;
+    background-color: #d2d2d2;
+}
+.formingresa{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+}
+.gmail{
+    display: flex;
+    padding: 30px;
+}
+.gmail input{
+    border-radius: 15px;
+    display: flex;
+    padding: 5px 50px 5px 50px;
+    background-color: #fc0606;
+}
+.registrate{
+    display: flex;
+    border: 2px solid;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: start;
+    background-color: #d2d2d2;
+}
+.registrate input{
+    border-radius: 15px;
+}
+.button{
+    border-radius: 15px;
+    display: flex;
+    padding: 5px 50px 5px 50px;
+    background-color: #fc0606;
 }
