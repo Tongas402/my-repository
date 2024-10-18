@@ -1,0 +1,10 @@
+// mixin flex
+
+@mixin flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    appearance: none;
+    margin: 0%;
+    padding: 10px;
+}

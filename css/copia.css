@@ -1,0 +1,286 @@
+*{
+    font-family: "Outfit", sans-serif;
+}
+body{
+    margin: 0%;
+}
+.header{
+    width: 100%;
+
+    display: flex;
+}
+.w-img{
+    width: 90px;
+    height: 24px;
+}
+.navbar-expand-lg{
+    justify-content: end;
+    background-color: black;
+}
+.navbar>.container-fluid{
+display: flex;
+justify-content: end;
+}
+.navbar{
+    width: 100%;
+     background-color: #e38282;
+}
+.nav-bar div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    appearance: none;
+    margin: 0%;
+    padding: 10px;
+}
+.nav-bar div button{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    background-color:black ;
+}
+.bs-navbar-color{
+background-color: #fc0606;;
+    margin: 0%;
+    padding: 0%;
+    border-width: 0px
+    
+}
+.nav-bar div button{
+    display: flex;
+    margin:0%;
+    padding:0%;
+    border:0%;
+    list-style: none;
+    text-decoration: none;
+}
+.navbr{
+    width: 100%;
+    display: flex ;
+    justify-content: end;
+    align-items: center;
+}
+.navbr li a{
+    text-decoration: none;
+    color: black;
+}
+.tittle{
+    margin: 5px;
+    color: #fc0606;
+    padding: color black;
+}
+.enbreves h2{
+    font-size:30px ;
+    display: flex;
+    justify-content: center;
+}
+.tittle-2{
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.d-block{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pie_de_foto{
+    background-color: #8d8888;
+    font-size: 1rem;
+}
+.contenedor_img{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:1fr;
+    width: 350px;
+   grid-area: auto;
+}
+.contenedor_img img{
+    background-color: #8f8484;
+    width: 100%;
+    border-radius:10px; ;
+}
+.aprende h3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fc0606;
+}
+.footer{
+    background-color: #616161;
+    display:flex; 
+    width: 100%;
+    justify-content: center;
+}
+.footer div{
+    display: flex;
+}
+.tel{
+text-decoration: none;
+list-style: none;
+}
+.footer div a{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    background-color: #616161;
+    justify-content: center;
+}
+.dumpold{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    padding: 0px;  
+    margin-bottom: 0px;
+    gap: 1rem;
+}
+.golrojo img{
+    display: flex;
+    background-color: #e38282;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.golverde img{
+    display: flex;      
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #e38282;
+}
+.chev img{
+    display: flex;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #e38282;
+}
+.peu img{
+    display: flex;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #e38282;
+}
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    padding: 0px;
+}
+.video1 video{
+    display: flex;
+    height: 300px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #e38282;
+}
+.video2 video{
+    display: flex;
+    height: 300px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #e38282;
+}
+.historia{
+    display: block;
+    margin: 15px;
+}
+.objetivo{
+    display: block;
+}
+.consulta form{
+    border-radius: 15px;
+    border: 2px solid;
+    display: block;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #d2d2d2;
+}
+.consulta form li{
+    list-style: none;
+}
+.controls div li{
+   width: 100%;
+   
+}
+iframe{
+    display: flex;
+    justify-content: center;
+}
+.presupuestos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    border:2px solid ;
+    list-style: none;
+    align-items: flex-start ;
+    background-color: #d2d2d2;
+}
+.enviar{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.enviar input {
+    padding: 10px 30px 10px 30px;
+    display: flex;
+    background-color: #fc0606;
+    border-radius: 15px;
+}
+.ingresa{
+    display: flex;
+    flex-flow: column;
+    border: 2px solid;
+    border-radius: 15px;
+    background-color: #d2d2d2;
+}
+.formingresa{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+}
+.gmail{
+    display: flex;
+    padding: 30px;
+}
+.gmail input{
+    border-radius: 15px;
+    display: flex;
+    padding: 5px 50px 5px 50px;
+    background-color: #fc0606;
+}
+.registrate{
+    display: flex;
+    border: 2px solid;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: start;
+    background-color: #d2d2d2;
+}
+.registrate input{
+    border-radius: 15px;
+}
+.button{
+    border-radius: 15px;
+    display: flex;
+    padding: 5px 50px 5px 50px;
+    background-color: #fc0606;
+}
